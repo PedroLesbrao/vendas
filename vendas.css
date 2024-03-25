@@ -1,0 +1,54 @@
+body{
+    background: radial-gradient(ellipse at center,
+                               rgba(254,255,232,1) 0%,
+                               rgb(207, 183, 105) 100%);
+}
+img{
+    width: 150px;
+    height: auto;
+    border: 1px dotted #000;
+    padding: 5px;
+}
+td.tdfoto{
+    width: 15%;
+    height: auto;
+}
+td.tddescricao{
+    width: 50%;
+    height: auto;
+    padding: 5px 10px 5px 10px;
+}
+td.tdpreco{
+    width: 15%;
+    height: auto;
+    text-align:center;
+}
+.preco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+}
+td.tdbotao{
+    width:20%;
+    height:auto;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #FFF 0%,
+                #EBEBEB 50%, #DBDBDB 50%, #B5B5B5);
+    border-radius: 10px;
+}
+
+button:hover{
+    background: linear-gradient(to top, #FFF 0%,
+                #EBEBEB 50%, #DBDBDB 50%, #B5B5B5);
+}
+
+#vendas{
+    width: 70%;
+    margin: 0px auto;
+}
